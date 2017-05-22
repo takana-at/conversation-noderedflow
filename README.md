@@ -49,3 +49,8 @@ Node-REDでConversationサービスを使ったアプリを作成する手順を
 ④【入力】今日雨ふる？→【出力】今日の天気は晴れ！最高気温24度。かなり温かい1日です。
 
 ⑤【入力】悲しい/嬉しい/楽しい/不安→【出力】
+
+## 補足資料
+また、別のConversationフローを作成する場合は、下記URLからダウンロードしてください。
+
+https://www.ibm.com/developerworks/community/files/app#/file/eeda8d43-5590-446a-8353-cfb5eef3cdd8
