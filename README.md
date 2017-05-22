@@ -3,6 +3,9 @@
 Node-REDでConversationサービスを使ったアプリを作成する手順を紹介します。
 
 ## ファイル一覧
+・手順書
+　>README.md
+
 ・Node-REDフロー
 　>conversation-nodered-flow.txt
 
