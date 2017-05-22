@@ -2,7 +2,7 @@
 
 Node-REDでConversationサービスを使ったアプリを作成する手順を紹介します。
 
-##ファイル一覧
+## ファイル一覧
 ・Node-REDフロー
 　>conversation-nodered-flow.txt
 
@@ -10,7 +10,7 @@ Node-REDでConversationサービスを使ったアプリを作成する手順を
 　>workspace-music.json
 
 
-##アプリの作成手順
+## アプリの作成手順
 ①Bluemix上で、「Node-RED Starter」を作成します。
 
 ②作成したら、Node-REDの実行環境に、「Conversation」サービスをバインドし、Node-REDアプリを再ステージングします。
