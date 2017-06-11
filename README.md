@@ -14,21 +14,15 @@ Node-REDでConversationサービスを使ったアプリを作成する手順を
 
 
 ## アプリの作成手順
-①Bluemix上で、「Node-RED Starter」を作成します。
-
-②作成したら、Node-REDの実行環境に、「Conversation」サービスをバインドし、Node-REDアプリを再ステージングします。
-
-③Node-REDアプリが「実行中」となったら、「Visit your App」からアプリを開きます。
-
-④Node-REDフローを開いたら、Node-REDフローをインポートします。
-　インポートの手順は、右上の「読み込み」→「クリップボード」に、conversation-nodered-flow.txtを全コピーし、貼り付けます。
-
-⑤「1.学習・データ登録」フローで、workspaceを作成し、workspace_idをメモする。
-
-⑥「デバッグ」フローの「conversation」ノードに先ほどメモしたworkspace_idを入力する。
+1. Bluemix上で、「Node-RED Starter」を作成します。
+2. 作成したら、Node-REDの実行環境に、「Conversation」サービスをバインドし、Node-REDアプリを再ステージングします。
+3. Node-REDアプリが「実行中」となったら、「Visit your App」からアプリを開きます。
+4. Node-REDフローを開いたら、Node-REDフローをインポートします。  
+インポートの手順は、右上の「読み込み」→「クリップボード」に、conversation-nodered-flow.txtを全コピーし、貼り付けます。
+5. 「1.学習・データ登録」フローで、workspaceを作成し、workspace_idをメモする。
+6. 「デバッグ」フローの「conversation」ノードに先ほどメモしたworkspace_idを入力する。  
 「こんにちは」ノードをクリックし、debugタブに「こんにちは！今日の気分はどう？」と出力されることを確認する。
-
-⑦「2.メイン」フローの「conversation」ノードに先ほどメモしたworkspace_idを入力する。
+7. 「2.メイン」フローの「conversation」ノードに先ほどメモしたworkspace_idを入力する。  
 ブラウザから、アプリのURLの末尾に「/conversation」を加えたURLを開き、会話ができることを確認する。
 
 	入力、出力の例
