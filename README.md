@@ -3,11 +3,11 @@
 Node-REDでConversationサービスを使ったアプリを作成する手順を紹介します。
 
 ## ファイル一覧
-・手順書
+・手順書  
 　>README.md  
-・Node-REDフロー
+・Node-REDフロー  
 　>conversation-nodered-flow.txt  
-・Conversationフロー
+・Conversationフロー  
 　>workspace-music.json
 
 
@@ -38,10 +38,10 @@ Node-REDでConversationサービスを使ったアプリを作成する手順を
 ## conversationの会話フローの入力・出力
 1. 【入力】おはよう  
   →【出力】今日はよく眠れた？  
-    →【入力】はい/いいえ→【出力】  
+      →【入力】はい/いいえ→【出力】  
 2. 【入力】音楽をききたい  
   →【出力】どんな音楽がいい？  
-    →【入力】ロック/クラシック/JPOP/ヒップホップ/トップ10→【出力】  
+      →【入力】ロック/クラシック/JPOP/ヒップホップ/トップ10→【出力】  
 3. 【入力】音楽をとめて  
   →【出力】音楽を停止するね。  
 4. 【入力】今日雨ふる？  
